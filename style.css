@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+
+body {
+    background-color: #144b6f;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    border-radius: 39px;
+    background: rgb(33, 32, 32);
+    height: 589px;
+    width: 375px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,1fr);
+    padding: 25px;
+    
+    
+}
+
+input {
+    background-color: rgb(33, 32, 32);
+    border: none;
+    font-size: 48px;
+    font-weight: 400;
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+    text-align:right;
+    align-items: end;
+    outline: none;
+    color: white;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+
+
+button {
+    font-size: 24px;
+    border-radius: 16px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+/*estilizações idferentes apra os diferentes tipos de botões.*/
+
+.black-button {
+    background: #303136;
+}
+
+.blue-button {
+    background-color: #0a4fbe;
+}
+
+.equal-button {
+    background-color: #316ac5;
+}
+
+.gray-button {
+    background-color: #535354;
+}
+
+.zero {
+    grid-column: 1 / 3;
+}
+
+.igual {
+    grid-row: 6 / 8;
+    grid-column: 4 / 5;
+}
